@@ -1,6 +1,18 @@
 ## GitHub Projects
 
-This project provides an MCP server for scraping data from GitHub Projects.
+This project provides an MCP server for scraping data from GitHub Projects. For use on private projects you will need a Github **P**ersonal **A**ccess **T**oken (PAT) with the following permissions:
+
+```
+Repository permissions:
+- Contents: Read-only
+- Issues: Read-only
+- Metadata: Read-only
+- Pull requests: Read-only
+
+Organization permissions:
+- Members: Read-only
+- Projects: Read-only
+```
 
 ### Running with MCP
 
